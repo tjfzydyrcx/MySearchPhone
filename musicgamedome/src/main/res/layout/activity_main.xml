@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.musicgamedome.MainActivity">
+
+    <com.example.musicgamedome.MyView.MyLinerLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/index_background"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <include layout="@layout/title_bar" />
+
+        <include layout="@layout/pan_layout" />
+        <!--文字框-->
+        <include
+            layout="@layout/name_select" />
+    </com.example.musicgamedome.MyView.MyLinerLayout>
+    <!-- 浮动按钮-->
+    <include layout="@layout/float_buttons" />
+    <!--  答案正确界面-->
+    <include layout="@layout/answer_right" />
+</FrameLayout>

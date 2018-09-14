@@ -1,0 +1,79 @@
+package com.example.mymusic.FIleinfo;
+
+import java.io.Serializable;
+
+/**
+ * Created by Administrator on 2017-08-15 0015.
+ */
+public class FileInfo implements Serializable{
+
+    private int id;
+    String url;
+    String fileName;
+    int length;
+    int finished;
+
+    @Override
+    public String toString() {
+        return "fileUtils{" +
+                "id=" + id +
+                ", url='" + url + '\'' +
+                ", fileName='" + fileName + '\'' +
+                ", length=" + length +
+                ", finished=" + finished +
+                '}';
+    }
+
+    public FileInfo() {
+       super();
+    }
+
+    public FileInfo(int id, String url, String fileName, int length, int finished) {
+        super();
+        this.id = id;
+        this.url = url;
+        this.fileName = fileName;
+        this.length = length;
+        this.finished = finished;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
+    }
+
+    public String getFileName() {
+        return fileName;
+    }
+
+    public void setFileName(String fileName) {
+        this.fileName = fileName;
+    }
+
+    public int getLength() {
+        return length;
+    }
+
+    public void setLength(int length) {
+        this.length = length;
+    }
+
+    public int getFinished() {
+        return finished;
+    }
+
+    public void setFinished(int finished) {
+        this.finished = finished;
+    }
+}

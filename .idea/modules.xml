@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MySearchPhone.iml" filepath="$PROJECT_DIR$/MySearchPhone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/musicgamedome/musicgamedome.iml" filepath="$PROJECT_DIR$/musicgamedome/musicgamedome.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myBeautifulWords/my360windowmanager.iml" filepath="$PROJECT_DIR$/myBeautifulWords/my360windowmanager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myBeautifulWords/myBeautifulWords.iml" filepath="$PROJECT_DIR$/myBeautifulWords/myBeautifulWords.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myandroidcharts/myandroidcharts.iml" filepath="$PROJECT_DIR$/myandroidcharts/myandroidcharts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mycalendarexaple/mycalendarexaple.iml" filepath="$PROJECT_DIR$/mycalendarexaple/mycalendarexaple.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mymusic/mymusic.iml" filepath="$PROJECT_DIR$/mymusic/mymusic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mynews/mynews.iml" filepath="$PROJECT_DIR$/mynews/mynews.iml" />
+      <module fileurl="file://$PROJECT_DIR$/watermelondiarynew/watermelondiarynew.iml" filepath="$PROJECT_DIR$/watermelondiarynew/watermelondiarynew.iml" />
+    </modules>
+  </component>
+</project>

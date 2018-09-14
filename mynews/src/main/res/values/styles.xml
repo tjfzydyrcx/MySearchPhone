@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+   <!-- <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        &lt;!&ndash; Customize your theme here. &ndash;&gt;
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>-->
+    <style name="AppTheme" parent="@style/AppBaseTheme"></style>
+
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <!-- toolbar（actionbar）颜色 -->
+        <item name="colorPrimary">#4876FF</item>
+        <!-- 状态栏颜色 -->
+        <item name="colorPrimaryDark">#3A5FCD</item>
+        <!-- 窗口的背景颜色 -->
+        <item name="android:windowBackground">@android:color/white</item>
+        <!-- SearchView -->
+        <item name="searchViewStyle">@style/MySearchViewStyle</item>
+    </style>
+    <style name="MySearchViewStyle" parent="Widget.AppCompat.SearchView"></style>
+
+    <!-- 自定义加载弹窗-->
+    <style name="commonProgressDialog">
+        <!--这是背景半透明-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--窗口无标题-->
+        <item name="android:windowNoTitle">true</item>
+        <!--是否悬浮当前界面-->
+        <item name="android:windowIsFloating">true</item>
+        <!--设置 动画样式-->
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+    </style>
+</resources>

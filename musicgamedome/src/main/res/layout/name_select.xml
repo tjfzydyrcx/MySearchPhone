@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/select_layout"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:gravity="center_vertical|center"
+        android:orientation="horizontal"></LinearLayout>
+
+    <ImageView
+
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@mipmap/game_line" />
+
+    <com.example.musicgamedome.MyView.MyGridView
+        android:id="@+id/myGridview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:numColumns="6"
+        android:orientation="vertical">
+    </com.example.musicgamedome.MyView.MyGridView>
+</LinearLayout>
